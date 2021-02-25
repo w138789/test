@@ -17,7 +17,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        $users = Db::table('user')->get();
+        $users = Db::table('goods')->get();
         return $users;
     }
 }
