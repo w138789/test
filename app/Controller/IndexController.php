@@ -20,7 +20,7 @@ class IndexController extends Controller
         return $this->response->success([
             'user' => $user,
             'method' => $method,
-            'message' => 'Hello 你说啥就是啥 Hyperf.',
+            'message' => 'Hello 我没说啥 Hyperf.',
         ]);
     }
 }
