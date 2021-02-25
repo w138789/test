@@ -56,4 +56,6 @@ RUN composer install --no-dev -o
 
 EXPOSE 9501
 
+CMD ["--network base_net"]
+
 ENTRYPOINT ["php", "/opt/www/bin/hyperf.php", "start"]
