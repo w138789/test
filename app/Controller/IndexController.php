@@ -17,8 +17,6 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return phpinfo();//
-        return config('databases.default.host');
         $users = Db::table('user')->get();
         return $users;
     }
