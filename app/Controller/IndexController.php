@@ -17,7 +17,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return '说中斩';
+        return '我的中国';
         $users = Db::table('goods')->get();//
         return $users;
     }
